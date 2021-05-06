@@ -21,8 +21,8 @@ body::before {
   position: fixed;
 
   background: #01031be1;
-  background: -webkit-linear-gradient(to right, #0a152ede, #01041dd5);
-  background: linear-gradient(to right, #080d3bdc, #000428de), url("../img/portada.jpg") top right no-repeat;
+  background: -webkit-linear-gradient(to right, #0a1b2ede, #01121dd5);
+  background: linear-gradient(to right, #081a3bdc, #021f4bde), url("../img/portada.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -46,8 +46,12 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+/* h1, h2, h3, h4, h5, h6, p {
+font-family: 'Life Savers', cursive;
+font-family: 'Nunito', sans-serif;
+} */
+body{
+  font-family: 'Nunito', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -349,14 +353,14 @@ section .container {
 
 .section-title h2 {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 300;
   padding: 0;
   line-height: 1px;
   margin: 0 0 20px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 .section-title h2::after {
@@ -371,11 +375,11 @@ section .container {
 .section-title p {
   margin: 0;
   margin: -15px 0 15px 0;
-  font-size: 36px;
-  font-weight: 700;
+  font-size: 26px;
+  font-weight: 150;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  color: rgb(143, 188, 255);
 }
 
 /*--------------------------------------------------------------
@@ -473,19 +477,20 @@ section .container {
 
 .skills .progress-bar-wrap {
   background: rgba(255, 255, 255, 0.15);
+  height: 10px;
 }
 
 .skills .progress-bar {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #034481;
+  background-color: #1075d4;
 }
 .skills .progress-bar:hover {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #1f89ec;
+  background-color: #0fd3ec;
 }
 
 /*--------------------------------------------------------------
