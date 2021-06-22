@@ -77,7 +77,8 @@ body{
   padding: 0;
   line-height: 1;
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Merienda', cursive;
+  font-family: 'Quantico', sans-serif;
 }
 
 #header h1 a, #header h1 a:hover {
@@ -168,7 +169,8 @@ body{
   position: relative;
   color: rgba(255, 255, 255, 0.877);
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Merienda', cursive;
+  font-family: 'Quantico', sans-serif;
   font-weight: 400;
 }
 
